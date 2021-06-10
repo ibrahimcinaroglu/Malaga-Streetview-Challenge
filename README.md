@@ -24,5 +24,5 @@ International Journal of Robotics Research33(2) (2014)
 
 A visual localization challenging dataset with wide-baseline based on a part of Malaga Urban Dataset
 
-![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/cb6e6ad6205878dc35bbe6adc2fb79b0d0cbe131/Streetview_Original_Samples.png?raw=true)
+![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/e4b9f12fa2dfbd5c5e556e61af3e78d9e9781ef7/Streetview_Downtown_Samples.png?raw=true)
 
