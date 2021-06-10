@@ -14,7 +14,7 @@ Training semantic descriptors for image-based localization.
 In:ECCV 2020 Workshop on Perception for Autonomous Driving(PAD). ECCV (23 August2020)
 ```
 
-The dataset is based on the RobotCar dataset described in this paper:
+The dataset is based on the Málaga Stereo and Laser Urban Dataset (Downtown subpart) described in this paper:
 
 ```
 Blanco-Claraco, J.L., Moreno-Duenas, F.A., J, G.J.: 
