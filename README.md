@@ -26,3 +26,6 @@ A visual localization challenging dataset with wide-baseline based on a part of 
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/e4b9f12fa2dfbd5c5e556e61af3e78d9e9781ef7/Streetview_Downtown_Samples.png?raw=true)
 
+
+![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/e4b9f12fa2dfbd5c5e556e61af3e78d9e9781ef7/Streetview_Downtown_Samples.png?raw=true)
+
