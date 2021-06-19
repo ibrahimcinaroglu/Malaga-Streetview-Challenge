@@ -58,15 +58,8 @@ A sample verification of same GPS information with its Google Stretview (left on
 ## Provided Files
 The following files are provides with this release of the Malaga-Streetview-Challenge dataset in various 
 directories:
-* `3D-models/`: Contains the 3D models created from the reference images.
-* `extrinsics/`: Contains the extrinsic camera calibration between the three cameras used in
- the dataset.
-* `images/`: Contains the images of the RobotCar Seasons dataset.
-* `intrinsics/`: Contains the intrinsic calibrations of the three cameras used in the dataset.
-
-
- "all-sensors_GPS.txt " includes 1572 GPS records that corresponds to 1572 stereo images.
-Each line contains an entry with the Longitude, Latitude and Height values in radians. 
+* `Database`: Contains 1561 database images [1024 X 768] in 14 parts. Also corresponding 1561 GPS values in radian decimal (Each line: ImgID/lat/lon) are included.
+* `Query/`: Contains 436 query images [640 X 540]. Also corresponding 436 GPS values in radian decimal (Each line: ImgID/lat/lon) are included. 
 
 ### License
 All files provided by Malaga-Streetview-Challenge dataset are licensed under a 
