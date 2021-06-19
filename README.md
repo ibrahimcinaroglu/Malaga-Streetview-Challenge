@@ -41,6 +41,8 @@ to include viewpoint variety and long term changes, we manually collected query 
 every 10-20 meter in the same 8 km. route in different times (1st row in figure above). In total, Malaga Streetview
 Challenge has 436 query images and 1561 database images. Below is a table mapping the detailed statistics of the dataset.
 
+![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/45be5d641ebb2d9ee1bf75a79a0faef4d5e40032/Route_Of_Dataset.png?raw=true)
+
 Baseline | Database images conditions (# images) | Query images conditions (# images) | Geotags
 ------------|----------------|----------------|----------------
 Wide baseline | Reference traversal (Rectified and decreased version of Malaga Downtown) in 2014 - (Overcast/1561) | Google Streetview (436): all short-long term changes by different time period and years from 2014 to 2020 | Radian/Degree ? decimal longitude/latitude values in WGS84 geodetic datum
