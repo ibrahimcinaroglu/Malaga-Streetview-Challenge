@@ -19,8 +19,11 @@ The dataset is based on the Málaga Stereo and Laser Urban Dataset (Downtown sub
 ```
 Blanco-Claraco, J.L., Moreno-Duenas, F.A., J, G.J.: 
 The malaga urban dataset: High-ratestereo and lidars in a realistic urban scenario. 
-International Journal of Robotics Research33(2) (2014)
+International Journal of Robotics Research33(2). (2014) DOI: 10.1177/0278364913507326 
 ```
+The original Málaga Stereo and Laser Urban Dataset (with subset Downtown) can be found 
+[here](http://www.mrpt.org/MalagaUrbanDataset).
+
 
 ### Dataset Details
 
