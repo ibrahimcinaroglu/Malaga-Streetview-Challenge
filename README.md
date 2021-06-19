@@ -27,9 +27,20 @@ The original Málaga Stereo and Laser Urban Dataset (with subset Downtown) can b
 
 ### Dataset Details
 
-A visual localization challenging dataset with wide-baseline based on a part of Malaga Urban Dataset
+A visual localization (VL) challenging dataset 'Malaga-Streetview-Challenge', was prepared in order to 
+test the performance of our VL methods carried out in the studies above.  Differently from the known VL 
+dataset, this dataset provides not only short/long term changes but also wide baseline as depicted in the
+following figure below. We have made this dataset publicly available with its geotags.
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/0ae489a642c10613e0a44a7dc84c827eb5aa0232/Streetview_Downtown_Samples.png?raw=true)
+
+
+Malaga Streetview Challenge Dataset contains a reduced subset of publicly available Malaga Downtown Dataset
+as the database images. These were collected on nearly 8 km. urban route visualized in Fig. 3. To be able 
+to include viewpoint variety and long term changes, we collected query images from Google Streetview within 
+every 10-20 meter in the same 8 km. route in different times (left column in Fig. 8). In total, Malaga Streetview
+Challenge has 436 query images and 1561 database images (Table
+1).
 
 The RobotCar Seasons dataset uses images captured with the Grasshopper 2 Left, Right, and
 Rear cameras mounted on the vehicle used to create the original RobotCar dataset. The 
