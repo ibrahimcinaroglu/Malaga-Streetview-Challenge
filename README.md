@@ -35,37 +35,33 @@ it will be useful for researchers studying in this field.
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/0ae489a642c10613e0a44a7dc84c827eb5aa0232/Streetview_Downtown_Samples.png?raw=true)
 
-
-Malaga Streetview Challenge Dataset contains a reduced subset of publicly available Malaga Downtown Dataset
+Malaga-Streetview-Challenge Dataset contains a reduced subset of publicly available Malaga Downtown Dataset
 as the database images. These were collected on nearly 8 km. urban route visualized in Fig. 3. To be able 
 to include viewpoint variety and long term changes, we collected query images from Google Streetview within 
 every 10-20 meter in the same 8 km. route in different times (1st row in figure above). In total, Malaga Streetview
-Challenge has 436 query images and 1561 database images. Below is a table mapping the images taken under 
-different conditions to the capture dates of our dataset.
+Challenge has 436 query images and 1561 database images. Below is a table mapping the detailed statistics of the dataset.
 
-Baseline | Database images conditions (# images) | Query images conditions (# images)
-------------|----------------|----------------
-Wide baseline | Reference traversal (Rectified and decreased version of Malaga Downtown) in 2014 - Prepared (Overcast/1561) | Google Streetview (436): all short-long term changes by different time period and years from 2014 to 2020 
+Baseline | Database images conditions (# images) | Query images conditions (# images) | Geotags
+------------|----------------|----------------|----------------
+Wide baseline | Reference traversal (Rectified and decreased version of Malaga Downtown) in 2014 - (Overcast/1561) | Google Streetview (436): all short-long term changes by different time period and years from 2014 to 2020 | Radian/Degree ? decimal longitude/latitude values in WGS84 geodetic datum
 
-Corresponding geotags for images are also provided.
+Corresponding geotags for images are also provided in radian/degree ? decimal longitude/latitude values (Table above). Database image coordinates (1561) are obtained from the binary files that Málaga Stereo and Laser Urban Dataset provides us. Query image coordinates are manually collected from Google Maps.
+Also it is denoted all these values are in WGS84 geographic coordinate system and It is known Google Maps also works with WGS84 geodetic datum. On the other hand, Google Maps WGS84 coordinates are in degree so we need to convert given radians decimal value into degree decimals. We have verifided that given GPS values are compatible with Google Maps coordinates.
 
-The RobotCar Seasons dataset uses images captured with the Grasshopper 2 Left, Right, and
-Rear cameras mounted on the vehicle used to create the original RobotCar dataset. The 
-images provided with the RobotCar Seasons dataset have been undistorted.
-Below is a table mapping the images taken under different conditions to the capture dates
-listed on the RobotCar [webpage](http://robotcar-dataset.robots.ox.ac.uk/). An extended 
-version of this table is included in the extended version of the CVPR 2018 paper that can be
-found on [arXiv](https://arxiv.org/abs/1707.09092).
-
+A sample corresponding of GPS information with its Google Maps scene is verified in Fig.2. 
 
 ## Provided Files
-The following files are provides with this release of the RobotCar Seasons dataset in various 
+The following files are provides with this release of the Malaga-Streetview-Challenge dataset in various 
 directories:
 * `3D-models/`: Contains the 3D models created from the reference images.
 * `extrinsics/`: Contains the extrinsic camera calibration between the three cameras used in
  the dataset.
 * `images/`: Contains the images of the RobotCar Seasons dataset.
 * `intrinsics/`: Contains the intrinsic calibrations of the three cameras used in the dataset.
+
+
+ "all-sensors_GPS.txt " includes 1572 GPS records that corresponds to 1572 stereo images.
+Each line contains an entry with the Longitude, Latitude and Height values in radians. 
 
 ### License
 All files provided by Malaga-Streetview-Challenge dataset are licensed under a 
