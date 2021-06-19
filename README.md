@@ -25,7 +25,29 @@ International Journal of Robotics Research33(2) (2014)
 ## A visual localization challenging dataset with wide-baseline based on a part of Malaga Urban Dataset
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/0ae489a642c10613e0a44a7dc84c827eb5aa0232/Streetview_Downtown_Samples.png?raw=true)
-            
+
+### Image Details
+The RobotCar Seasons dataset uses images captured with the Grasshopper 2 Left, Right, and
+Rear cameras mounted on the vehicle used to create the original RobotCar dataset. The 
+images provided with the RobotCar Seasons dataset have been undistorted.
+Below is a table mapping the images taken under different conditions to the capture dates
+listed on the RobotCar [webpage](http://robotcar-dataset.robots.ox.ac.uk/). An extended 
+version of this table is included in the extended version of the CVPR 2018 paper that can be
+found on [arXiv](https://arxiv.org/abs/1707.09092).
+
+Condition | Capture Date
+------------|----------------
+overcast-reference | 28 Nov 2014
+dawn | 16 Dec 2014
+dusk | 20 Feb 2015
+night | 10 Dec 2014
+night-rain | 17 Dec 2014
+overcast-summer | 22 May 2015
+overcast-winter | 13 Nov 2015
+rain |  25 Nov 2014
+snow | 3 Feb 2015
+sun | 10 Mar 2015
+
 ### License
 All files provided by Malaga-Streetview-Challenge dataset are licensed under a 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
