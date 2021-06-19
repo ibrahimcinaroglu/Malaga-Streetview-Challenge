@@ -29,7 +29,7 @@ The original Málaga Stereo and Laser Urban Dataset (with subset Downtown) can b
 
 A visual localization (VL) challenging dataset 'Malaga-Streetview-Challenge', was prepared in order to 
 test the performance of our VL methods carried out in the studies above. Differently from the known VL 
-dataset, this dataset provides not only short/long term changes but also wide baseline as depicted in the
+dataset, this dataset provides not only short/long term changes but also wide baseline as compared in the
 following figure below. This newly generated evaluation set has been made publicly available and we believe
 it will be useful for researchers studying in this field.
 
