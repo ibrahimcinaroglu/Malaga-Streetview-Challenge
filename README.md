@@ -48,7 +48,9 @@ Wide baseline | Reference traversal (Rectified and decreased version of Malaga D
 Corresponding geotags for images are also provided in radian/degree ? decimal longitude/latitude values (Table above). Database image coordinates (1561) are obtained from the binary files that Málaga Stereo and Laser Urban Dataset provides us. Query image coordinates are manually collected from Google Maps.
 Also it is denoted all these values are in WGS84 geographic coordinate system and It is known Google Maps also works with WGS84 geodetic datum. On the other hand, Google Maps WGS84 coordinates are in degree so we need to convert given radians decimal value into degree decimals. We have verifided that given GPS values are compatible with Google Maps coordinates.
 
-A sample corresponding of GPS information with its Google Maps scene is verified in Fig.2. 
+A sample verification of same GPS information with its Google Stretview (left one) and Malaga Downtown (right one) image pair is given in the following figure below. 
+
+
 
 ## Provided Files
 The following files are provides with this release of the Malaga-Streetview-Challenge dataset in various 
