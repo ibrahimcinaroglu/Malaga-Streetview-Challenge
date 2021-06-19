@@ -22,11 +22,12 @@ The malaga urban dataset: High-ratestereo and lidars in a realistic urban scenar
 International Journal of Robotics Research33(2) (2014)
 ```
 
-## A visual localization challenging dataset with wide-baseline based on a part of Malaga Urban Dataset
+### Dataset Details
+
+A visual localization challenging dataset with wide-baseline based on a part of Malaga Urban Dataset
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/0ae489a642c10613e0a44a7dc84c827eb5aa0232/Streetview_Downtown_Samples.png?raw=true)
 
-### Image Details
 The RobotCar Seasons dataset uses images captured with the Grasshopper 2 Left, Right, and
 Rear cameras mounted on the vehicle used to create the original RobotCar dataset. The 
 images provided with the RobotCar Seasons dataset have been undistorted.
@@ -47,6 +48,15 @@ overcast-winter | 13 Nov 2015
 rain |  25 Nov 2014
 snow | 3 Feb 2015
 sun | 10 Mar 2015
+
+## Provided Files
+The following files are provides with this release of the RobotCar Seasons dataset in various 
+directories:
+* `3D-models/`: Contains the 3D models created from the reference images.
+* `extrinsics/`: Contains the extrinsic camera calibration between the three cameras used in
+ the dataset.
+* `images/`: Contains the images of the RobotCar Seasons dataset.
+* `intrinsics/`: Contains the intrinsic calibrations of the three cameras used in the dataset.
 
 ### License
 All files provided by Malaga-Streetview-Challenge dataset are licensed under a 
@@ -78,3 +88,6 @@ following two papers:
 	year={23 August 2020}
 }
 ```
+### Privacy
+We take privacy seriously. If you have any concerns regarding the images and other data
+provided with this dataset, please [contact us](mailto:ibrahim.ceinaroglu@gmail.com).
