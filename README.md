@@ -28,9 +28,10 @@ The original Málaga Stereo and Laser Urban Dataset (with subset Downtown) can b
 ### Dataset Details
 
 A visual localization (VL) challenging dataset 'Malaga-Streetview-Challenge', was prepared in order to 
-test the performance of our VL methods carried out in the studies above.  Differently from the known VL 
+test the performance of our VL methods carried out in the studies above. Differently from the known VL 
 dataset, this dataset provides not only short/long term changes but also wide baseline as depicted in the
-following figure below. We have made this dataset publicly available with its geotags.
+following figure below. This newly generated evaluation set has been made publicly available and we believe
+it will be useful for researchers studying in this field.
 
 ![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/0ae489a642c10613e0a44a7dc84c827eb5aa0232/Streetview_Downtown_Samples.png?raw=true)
 
@@ -38,9 +39,15 @@ following figure below. We have made this dataset publicly available with its ge
 Malaga Streetview Challenge Dataset contains a reduced subset of publicly available Malaga Downtown Dataset
 as the database images. These were collected on nearly 8 km. urban route visualized in Fig. 3. To be able 
 to include viewpoint variety and long term changes, we collected query images from Google Streetview within 
-every 10-20 meter in the same 8 km. route in different times (left column in Fig. 8). In total, Malaga Streetview
-Challenge has 436 query images and 1561 database images (Table
-1).
+every 10-20 meter in the same 8 km. route in different times (1st row in figure above). In total, Malaga Streetview
+Challenge has 436 query images and 1561 database images. Below is a table mapping the images taken under 
+different conditions to the capture dates of our dataset.
+
+Baseline | Database images conditions (# images) | Query images conditions (# images)
+------------|----------------|----------------
+Wide baseline | Reference traversal (Rectified and decreased version of Malaga Downtown) in 2014 - Prepared (Overcast/1561) | Google Streetview (436): all short-long term changes by different time period and years from 2014 to 2020 
+
+Corresponding geotags for images are also provided.
 
 The RobotCar Seasons dataset uses images captured with the Grasshopper 2 Left, Right, and
 Rear cameras mounted on the vehicle used to create the original RobotCar dataset. The 
@@ -50,18 +57,6 @@ listed on the RobotCar [webpage](http://robotcar-dataset.robots.ox.ac.uk/). An e
 version of this table is included in the extended version of the CVPR 2018 paper that can be
 found on [arXiv](https://arxiv.org/abs/1707.09092).
 
-Condition | Capture Date
-------------|----------------
-overcast-reference | 28 Nov 2014
-dawn | 16 Dec 2014
-dusk | 20 Feb 2015
-night | 10 Dec 2014
-night-rain | 17 Dec 2014
-overcast-summer | 22 May 2015
-overcast-winter | 13 Nov 2015
-rain |  25 Nov 2014
-snow | 3 Feb 2015
-sun | 10 Mar 2015
 
 ## Provided Files
 The following files are provides with this release of the RobotCar Seasons dataset in various 
