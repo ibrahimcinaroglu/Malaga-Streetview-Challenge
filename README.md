@@ -37,7 +37,7 @@ it will be useful for researchers studying in this field.
 
 Malaga-Streetview-Challenge Dataset contains a reduced subset of publicly available Malaga Downtown Dataset
 as the database images. These were collected on nearly 8 km. urban route visualized in Fig. 3. To be able 
-to include viewpoint variety and long term changes, we collected query images from Google Streetview within 
+to include viewpoint variety and long term changes, we manually collected query images from Google Streetview within 
 every 10-20 meter in the same 8 km. route in different times (1st row in figure above). In total, Malaga Streetview
 Challenge has 436 query images and 1561 database images. Below is a table mapping the detailed statistics of the dataset.
 
