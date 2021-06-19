@@ -50,7 +50,7 @@ Also it is denoted all these values are in WGS84 geographic coordinate system an
 
 A sample verification of same GPS information with its Google Stretview (left one) and Malaga Downtown (right one) image pair is given in the following figure below. 
 
-![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/dbaaab7d03a65549f1a3bc4256d4fee99c070b69/VerificationOfGeotag.png?raw=true)
+![pipeline](https://github.com/ibrahimcinaroglu/Malaga-Streetview-Challenge/blob/bffbde30a7f6948d75c7ab59f89a0bde3dc1427e/Verification_Of_Geotag.png?raw=true)
 
 ## Provided Files
 The following files are provides with this release of the Malaga-Streetview-Challenge dataset in various 
