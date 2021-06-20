@@ -61,7 +61,7 @@ directories:
 * `Database`: Contains 1561 database images [1024 X 768] in 14 parts. Also corresponding 1561 GPS values in radian decimal (Each line: ImgID/lat/lon) are included.
 * `Query/`: Contains 436 query images [640 X 540]. Also corresponding 436 GPS values in radian decimal (Each line: ImgID/lat/lon) are included. 
 
-- GPS values are served with .mat file (Matlab).
+- GPS values are served as '.mat' file type (Matlab).
 
 ### License
 All files provided by Malaga-Streetview-Challenge dataset are licensed under a 
